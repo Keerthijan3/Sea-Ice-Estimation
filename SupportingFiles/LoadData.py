@@ -1,13 +1,14 @@
+'''
+In this script, functions required to load data of various types
+are provided.
+'''
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from netCDF4 import Dataset
 from sklearn.feature_extraction.image import extract_patches
 
-
-'''
-In this script, functions required to load data of various types
-are provided.
-'''
 
 
 def LoadImage(path):
