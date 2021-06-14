@@ -11,3 +11,6 @@ SupportingFiles folder contains scripts necessary to extract, process, and store
 
 Dependencies:
 PyTorch, Numpy, Matplotlib, torchvision
+
+
+Radhakrishnan, K., Scott, A., & Clausi, D. (2021). Sea Ice Concentration Estimation: Using Passive Microwave and SAR Data with a U-net and Curriculum Learning. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.
