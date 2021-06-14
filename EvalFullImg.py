@@ -1,10 +1,3 @@
-import SupportingFiles.LoadData as LoadData
-import numpy as np
-import os
-import Models.UnetModel as UnetModel
-import sys
-import matplotlib.pyplot as plt
-import torch
 '''
 This script is used to make predictions.
 
@@ -22,6 +15,14 @@ scenes.
 
 '''
 
+
+import SupportingFiles.LoadData as LoadData
+import numpy as np
+import os
+import Models.UnetModel as UnetModel
+import sys
+import matplotlib.pyplot as plt
+import torch
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 ModelWeights = sys.argv[1]
