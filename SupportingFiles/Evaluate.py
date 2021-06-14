@@ -1,14 +1,14 @@
-import os
-import numpy as np
-from sklearn.metrics import mean_squared_error, mean_absolute_error
-import mysql.connector
-
-
 '''
 This script contains functions required to evaluate predictions
 with various ground truth types (ASI, NT2, image analysis charts).
 Functions that port the results to an SQL database is provided.
 '''
+
+
+import os
+import numpy as np
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+import mysql.connector
 
 
 def CalculateMSE(targetloc, predictionloc):
