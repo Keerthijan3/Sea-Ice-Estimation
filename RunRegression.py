@@ -1,9 +1,7 @@
-import sys
-import Models.UnetModel as UnetModel
-import numpy as np
-
 '''
-This is script for training model. Curriculum learning is implemented
+This is script for loading data and training a deep learning model. Model must be imported.
+
+Curriculum learning is implemented
 
 INPUTs:
 
@@ -27,6 +25,11 @@ OUTPUTs:
 
 Model weights are saved in PreTrained models directory.
 '''
+
+
+import sys
+import Models.UnetModel as UnetModel
+import numpy as np
 
 learning = sys.argv[1]
 step = sys.argv[2]
